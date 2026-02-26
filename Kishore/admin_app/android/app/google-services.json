@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "193496126694",
+    "project_id": "food-service-aa0e5",
+    "storage_bucket": "food-service-aa0e5.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:193496126694:android:201bd0ac376717f2a91727",
+        "android_client_info": {
+          "package_name": "com.company.admin_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDneYIFvJvcLp-zRIRSwps-Q8bRQEvLd8o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:193496126694:android:34a55b3bef6f31eea91727",
+        "android_client_info": {
+          "package_name": "com.company.user_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDneYIFvJvcLp-zRIRSwps-Q8bRQEvLd8o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

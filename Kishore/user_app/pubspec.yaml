@@ -1,0 +1,25 @@
+name: user_app
+description: Restaurant User App
+publish_to: 'none'
+version: 2.0.0+2
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^2.27.0
+  firebase_auth: ^4.17.9
+  cloud_firestore: ^4.15.8
+  qr_flutter: ^4.1.0
+  url_launcher: ^6.3.2
+  cupertino_icons: ^1.0.2 
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true

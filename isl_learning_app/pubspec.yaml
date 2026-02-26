@@ -1,0 +1,40 @@
+name: isl_learning_app
+description: Indian Sign Language Learning App for Children
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  camera: ^0.10.5+5
+  shared_preferences: ^2.2.2
+  provider: ^6.1.1
+  flutter_animate: ^4.3.0
+  confetti: ^0.7.0
+  lottie: ^2.7.0  # For fun animations
+  google_fonts: ^6.1.0  # For playful fonts
+  animations: ^2.0.7  # For pre-built animations
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/Logo.jpg"
+  min_sdk_android: 21
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/gifs/ 
+    - assets/Logo.jpg

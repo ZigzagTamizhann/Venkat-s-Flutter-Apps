@@ -1,0 +1,27 @@
+name: qr_app
+description: Restaurant QR Scanner App
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^3.4.0
+  firebase_auth: ^5.2.0
+  cloud_firestore: ^5.3.0
+  mobile_scanner: ^4.0.0
+  cupertino_icons: ^1.0.2
+  blue_thermal_printer: ^1.2.3
+  permission_handler: ^11.0.1
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
